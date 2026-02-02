@@ -13,7 +13,7 @@
 #
 
 include:
-  - board: nice_nano_v2
+  - board: seeeduino_xiao_ble
     shield: klotz_dongle
     snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
