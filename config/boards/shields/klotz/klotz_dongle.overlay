@@ -7,6 +7,13 @@
 #include "klotz.dtsi"
 
 / {
+    klotz_physical_layout: klotz_physical_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Default Layout";
+        transform = <&default_transform>;
+	};
+
+/ {
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &klotz_physical_layout;
