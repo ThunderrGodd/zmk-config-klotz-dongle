@@ -1,4 +1,4 @@
-/*
+      /*
  * Copyright (c) 2022 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -13,7 +13,7 @@
 	};
 
 	default_transform: keymap_transform {
-		compatible = "zmk,matrix-transform";
+		compatible = "zmk,matrix-transform"; 
 		columns = <10>;
 		rows = <4>;
 		map = <
@@ -28,17 +28,7 @@
 		compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
-        events = <>;
+        events = <0>;
 	};
 };
-	
-&sensors { status = "disabled"; };
-&soft_off_wakers { status = "disabled"; };
-
-&left_encoder { status = "disabled"; };
-&right_encoder { status = "disabled"; };
-
-&kscan0 {
-    status = "disabled";
-	};
 
