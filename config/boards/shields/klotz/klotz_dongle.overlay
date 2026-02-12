@@ -12,7 +12,7 @@
         display-name = "Default Layout";
         transform = <&default_transform>;
 	};
-
+};
 / {
     chosen {
         zmk,kscan = &mock_kscan;
