@@ -30,6 +30,7 @@
         rows = <0>;
         events = <>;
 	};
+};
 	
 &sensors { status = "disabled"; };
 &soft_off_wakers { status = "disabled"; };
@@ -41,4 +42,3 @@
     status = "disabled";
 	};
 
-};
