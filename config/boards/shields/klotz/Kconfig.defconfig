@@ -6,11 +6,9 @@ if SHIELD_KLOTZ_DONGLE
     config ZMK_SPLIT_ROLE_CENTRAL
         default y
 
-    # 주변기기(Peripherals) 개수: 왼쪽 + 오른쪽 = 2
     config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
         default 2
 
-    # 최대 연결 수: 주변기기 2 + 블루투스 프로필 5 = 7
     config BT_MAX_CONN
         default 7
 
@@ -20,7 +18,7 @@ if SHIELD_KLOTZ_DONGLE
     config ZMK_USB
         default y
 
-endif # SHIELD_KLOTZ_DONGLE
+endif # DONGLE
 
 if SHIELD_KLOTZ_LEFT || SHIELD_KLOTZ_RIGHT || SHIELD_KLOTZ_DONGLE
 
